@@ -6,5 +6,6 @@ def subtract(a, b)
   a - b
 end
 
-def sum([])
+def sum
+  sum = 0
 end

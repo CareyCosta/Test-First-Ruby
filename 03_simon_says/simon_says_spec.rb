@@ -1,4 +1,4 @@
-# # Simon Says
+
 #
 # ## Topics
 #
@@ -8,12 +8,13 @@
 #
 # ## Hints
 #
-# When you make the second `repeat` test pass, you might break the **first**
+# When you make the second `repeat` test pass, you might break the
+# **first**
 #
 
 require "simon_says"
 
-describe "Simon says" do
+describe "simon_says" do
   describe "echo" do
     it "should echo hello" do
       echo("hello").should == "hello"
